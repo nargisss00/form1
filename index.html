@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>homework-form2-figma</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2>Schedule a call</h2>
+      <p>
+        A basic contact form with some common field types. All fields should be
+        mandatory.
+      </p>
+    </header>
+    <form action="">
+      <label for="name">Your name</label>
+      <input type="text" name="Name" />
+      <label for="interest">What are you interested in?</label>
+      <select name="İnterested" id="">
+        <option value="Sports">Sports</option>
+        <option value="Music">Music</option>
+      </select>
+      <!-- <div class="dropdown">
+        <div class="drop"><span>Please select...</span></div>
+        <div class="dropdown-content">
+          <span>Sports</span>
+          <span>Music</span>
+        </div>
+      </div> -->
+      <label for="yourMessage">Your message</label>
+      <textarea name="Message" id="yourMessage"></textarea>
+      <label for="email">Your email</label>
+      <input type="email" name="Email" />
+      <label for="phone">Your phone number</label>
+      <input type="number" name="Number" />
+      <label for="call">Preferred time for call</label>
+      <div class="call">
+        <input type="date" name="Date" />
+        <input type="time" name="Time" />
+      </div>
+      <p>
+        We’ll try and match your chosen time, but will be in touch if we need to
+        reschedule.
+      </p>
+
+      <div class="buttons">
+        <button class="submitBtn">Submit</button>
+        <button class="resultBtn">View results</button>
+      </div>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
